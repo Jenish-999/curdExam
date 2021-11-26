@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #616366;
+}
+.bg-light{
+    background-color: #616366 !important;
+   
+}
+.navbar{
+    border-bottom:.10px solid #fff;
+}
+.navbar-brand, .nav-link{
+    color: rgb(221, 192, 155) !important;
+}
+.form-control, .form-select{
+    background-color: transparent !important;
+}
+.table-head{
+    color: wheat;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+footer{
+    width: 100%;
+    height: 3rem;
+    margin-top: auto;
+    background-color: #3e3f41;
+}
+footer .footer-para{
+text-align: center;
+line-height: 3rem;
+color: #fff;
+}
